@@ -28,6 +28,13 @@ public class ArrayListLoopingExample {
 			System.out.println(list.get(j));
 			j++;
 		}
+		
+		System.out.println("#3 while loop");
+	    j = 0;
+		while (list.size() > j) {
+			System.out.println(list.get(j));
+			j++;
+		}
 
 		System.out.println("#4 iterator");
 		Iterator<String> iterator = list.iterator();
