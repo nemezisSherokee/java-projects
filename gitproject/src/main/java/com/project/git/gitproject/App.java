@@ -23,4 +23,10 @@ public class App
     	return;
     	// for patches patch added
     }
+    
+    public void print3(String value, int intValue){
+    	System.out.println(value + " " + intValue);
+    	return;
+    	// for patches patch added
+    }
 }
