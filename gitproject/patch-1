@@ -1,0 +1,12 @@
+diff --git a/gitproject/src/main/java/com/project/git/gitproject/App.java b/gitproject/src/main/java/com/project/git/gitproject/App.java
+index d3dc96f..8e1c597 100644
+--- a/gitproject/src/main/java/com/project/git/gitproject/App.java
++++ b/gitproject/src/main/java/com/project/git/gitproject/App.java
+@@ -21,6 +21,6 @@
+     public void print(String value, int intValue){
+     	System.out.println(value + " " + intValue);
+     	return;
+-    	
++    	// for patches
+     }
+ }
