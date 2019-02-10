@@ -41,5 +41,11 @@ public class ArrayListLoopingExample {
 		while (iterator.hasNext()) {
 			System.out.println(iterator.next());
 		}
+		
+		System.out.println("#5 iterator");
+		Iterator<String> iterator2 = list.iterator();
+		while (iterator2.hasNext()) {
+			System.out.println(iterator.next());
+		}
 	}
 }
