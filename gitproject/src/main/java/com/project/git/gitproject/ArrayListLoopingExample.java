@@ -46,7 +46,6 @@ public class ArrayListLoopingExample {
 		Iterator<String> iterator2 = list.iterator();
 		while (iterator2.hasNext()) {
 			System.out.println(iterator.next());
-			continue;
 		}
 	}
 }
