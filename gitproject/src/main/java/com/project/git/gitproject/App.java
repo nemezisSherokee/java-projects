@@ -17,4 +17,9 @@ public class App
         // return ok ca marche 2;
         //45 oioi
     }
+    
+    public void print(String value, int intValue){
+    	System.out.println(value + " " + intValue);
+    	return;
+    }
 }
