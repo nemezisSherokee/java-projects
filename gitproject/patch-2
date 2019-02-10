@@ -1,0 +1,57 @@
+diff --git a/gitproject/src/main/java/com/project/git/gitproject/App.java b/gitproject/src/main/java/com/project/git/gitproject/App.java
+index d3dc96f..71e1cbd 100644
+--- a/gitproject/src/main/java/com/project/git/gitproject/App.java
++++ b/gitproject/src/main/java/com/project/git/gitproject/App.java
+@@ -21,6 +21,6 @@
+     public void print(String value, int intValue){
+     	System.out.println(value + " " + intValue);
+     	return;
+-    	
++    	// for patches patch added
+     }
+ }
+diff --git a/gitproject/src/main/java/com/project/git/gitproject/ArrayListLoopingExample.java b/gitproject/src/main/java/com/project/git/gitproject/ArrayListLoopingExample.java
+new file mode 100644
+index 0000000..4bd424c
+--- /dev/null
++++ b/gitproject/src/main/java/com/project/git/gitproject/ArrayListLoopingExample.java
+@@ -0,0 +1,38 @@
++package com.project.git.gitproject;
++
++import java.util.ArrayList;
++import java.util.Iterator;
++import java.util.List;
++
++public class ArrayListLoopingExample {
++	public static void main(String[] args) {
++
++		List<String> list = new ArrayList<String>();
++		list.add("Text 1");
++		list.add("Text 2");
++		list.add("Text 3");
++
++		System.out.println("#1 normal for loop");
++		for (int i = 0; i < list.size(); i++) {
++			System.out.println(list.get(i));
++		}
++
++		System.out.println("#2 advance for loop");
++		for (String temp : list) {
++			System.out.println(temp);
++		}
++
++		System.out.println("#3 while loop");
++		int j = 0;
++		while (list.size() > j) {
++			System.out.println(list.get(j));
++			j++;
++		}
++
++		System.out.println("#4 iterator");
++		Iterator<String> iterator = list.iterator();
++		while (iterator.hasNext()) {
++			System.out.println(iterator.next());
++		}
++	}
++}
+\ No newline at end of file
