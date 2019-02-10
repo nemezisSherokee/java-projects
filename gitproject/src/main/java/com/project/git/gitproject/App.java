@@ -15,4 +15,9 @@ public class App
     	System.out.println(value);
     	return;
     }
+    
+    public void print(String value, int intValue){
+    	System.out.println(value + " " + intValue);
+    	return;
+    }
 }
