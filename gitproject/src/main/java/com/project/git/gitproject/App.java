@@ -33,10 +33,5 @@ public class App
     public void print2(String value, int intValue){
     	System.out.println(value + " " + intValue);
     	return;
-    	//rebase test1 first branch 
-    	//rebase test2 first branch 
-    	// for patches patch added
     }
 }
-//add-nice-printer-for-string change 1 original branch
-//add-nice-printer-for-string change 2 original branch
