@@ -25,7 +25,7 @@ git add *
 git commit -m "second changes to add-nice-printer-for-string"
 
 
-git checkout -b $newbranch add-nice-printer-for-string
+git checkout -b $newbranch
 echo "//add-nice-printer-for-string change 2 new branch" >> ./gitproject/src/main/java/com/project/git/gitproject/App.java
 git add *
 git commit -m "second changes to new branch"
