@@ -38,3 +38,4 @@ public class App
     	// for patches patch added
     }
 }
+//add-nice-printer-for-string change 1 original branch
