@@ -7,6 +7,6 @@ newbranch=$1
 
 test
 test -z "$1" && {
-	 $newbranch = "branch1"+date +%s;
+	 $newbranch="branch1"+date +%s;
 	 echo "$newbranch"
 	}
